@@ -6,19 +6,19 @@
 //   Step-6: Boil it for few mins and then pour it into cup
 
 function putPan(){
-    console.log("Step-1: Put pan on gas")
+    console.log("Step-1: Put pan on gas");
 }
 
 function addWater(){
-    console.log("Step-2: Add water")
+    console.log("Step-2: Add water");
 }
 
 function addTeaLeaves(){
-    console.log("Step-3: Once water start boilling add tea leaves")
+    console.log("Step-3: Once water start boilling add tea leaves");
 }
 
 function addSugar(){
-    console.log("Step-4: Add Sugar")
+    console.log("Step-4: Add Sugar");
 }
 
 function addGinger(){
@@ -37,6 +37,8 @@ function makingTea(){
     addGinger();
     boil();
 }
-console.time("Tea")
+
+console.time("Tea");
 makingTea();
-console.timeLog("Tea")
+
+console.timeLog("Tea");
