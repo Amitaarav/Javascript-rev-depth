@@ -38,3 +38,33 @@ inviteEmployee2("Hi!", "Glad to have you!"); // Hi Sudheer Kumar Glad
 
 var inviteEmployee1WithArgs = invite.bind(employee1, "Hello!", "Welcome to the team!");
 inviteEmployee1WithArgs(); // Hello Amit Kumar Welcome to the team!
+
+console.log("###################################")
+function greet(city){
+    console.log(`Hi I'm ${this.name} from ${city}`)
+}
+const user = {name: "Amit"}
+
+greet.call(user, "Delhi Call")
+
+greet.apply(user,["Delhi Apply"]);
+
+const greetAmit = greet.bind(user, "Delhi Bind");
+greetAmit();
+
+// Borrowing method
+const person1 = { name: "Amit"}
+const person2 = { name: "Rahul"}
+
+function greetPerson(){
+    console.log(this.name)
+}
+greetPerson.call(person1)
+greetPerson.call(person2)
+
+function multiply(a, b){
+    return a * b;
+}
+
+const double = multiply.bind(null, 2);
+console.log(double(5));

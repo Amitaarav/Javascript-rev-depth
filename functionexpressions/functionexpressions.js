@@ -39,3 +39,4 @@ const fact2 = [1,2,3,4,5].map(function(n){
     return n <= 1 ? 1 : arguments.callee(n - 1) * n;
 })
 console.log(fact2) // Outputs: [ 1, 2, 6, 24, 120 ]
+
