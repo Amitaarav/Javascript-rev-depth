@@ -79,6 +79,6 @@ graph LR
 ---
 
 ## 📂 Related Files in this Directory
-- [promise--core.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Promises/promise--core.js) - Core syntax and basics.
-- [promiseImplementation.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Promises/promiseImplementation.js) - How to build your own Promise.
-- [promise-all/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Promises/promise-all) - Deep dive into `Promise.all`.
+- [promise--core.js](./promise--core.js) - Core syntax and basics.
+- [promiseImplementation.js](./promiseImplementation.js) - How to build your own Promise.
+- [promise-all/](./promise-all) - Deep dive into `Promise.all`.

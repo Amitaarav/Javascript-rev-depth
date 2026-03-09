@@ -67,5 +67,5 @@ console.log("End");
 ---
 
 ## 📂 Related Files
-- [Event-loop/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Event-loop/) - Core Event Loop concepts.
-- [Callback/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Callback/) - Introduction to asynchronous callbacks.
+- [Event-loop/](./) - Core Event Loop concepts.
+- [Callback/](../Callback/) - Introduction to asynchronous callbacks.

@@ -93,5 +93,5 @@ sequenceDiagram
 ---
 
 ## 📂 Related Files
-- [17-closures.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/17-closures.js) - Basic closure examples.
-- [setTimeout+closures/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/setTimeout+closures/) - Detailed loop pitfalls.
+- [17-closures.js](../Rev-js/17-closures.js) - Basic closure examples.
+- [setTimeout+closures/](../setTimeout+closures/) - Detailed loop pitfalls.

@@ -60,5 +60,5 @@ If you use an arrow function inside a class method for a callback (like `setTime
 ---
 
 ## 📂 Related Files in this Directory
-- [This-Keyword/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/JS-Depth/This-Keyword/) - Deep dive examples.
-- [03-call-apply-bind.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/03-call-apply-bind.js) - Exercises on explicit binding.
+- [This-Keyword/](./) - Deep dive examples.
+- [03-call-apply-bind.js](../../Rev-js/03-call-apply-bind.js) - Exercises on explicit binding.

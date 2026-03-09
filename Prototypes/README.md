@@ -67,6 +67,6 @@ Always put methods on the `.prototype` instead of inside the constructor.
 ---
 
 ## 📂 Related Files
-- [Prototypes/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Prototypes/) - Basics of prototype links.
-- [PrototypeInheritance/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/PrototypeInheritance/) - Complex inheritance patterns.
-- [02-prototype-chain.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/02-prototype-chain.js) - Script examples.
+- [Prototypes/](./) - Basics of prototype links.
+- [PrototypeInheritance/](../PrototypeInheritance/) - Complex inheritance patterns.
+- [02-prototype-chain.js](../Rev-js/02-prototype-chain.js) - Script examples.
