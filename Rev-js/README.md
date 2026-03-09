@@ -1,86 +1,38 @@
-# 🚀 JavaScript Revision Quick Guide (`Rev-js`)
+## 📂 Concept Index
 
-This directory contains a collection of core JavaScript concepts essential for interviews and deep understanding.
+Explore individual concepts in detail:
 
-## 🏗️ Hoisting
+### 🏗️ Objects & Prototypes
+- [🛠️ Ways to Create Objects](./01-ways-to-object-creation/README.md)
+- [🔗 Prototype Chain](./02-prototype-chain/README.md)
+- [🧬 Prototype Objects](./Prototype-object/README.md)
+- [💎 Classes](./27-classes/README.md)
 
-**Hoisting** is JavaScript's default behavior of moving declarations to the top of the current scope.
+### 📞 Functions & Context
+- [📞 Call, Apply, Bind](./03-call-apply-bind/README.md)
+- [🍛 Currying](./15-currying/README.md)
+- [🍛 Currying Examples](./function-currying/README.md)
+- [⚡ Higher-Order Functions](./13-higerOrderFun/README.md)
+- [1️⃣ Unary Functions](./14-unaryFunc/README.md)
+- [✨ Pure Functions](./16-pureFunction/README.md)
+- [🔒 Closures](./17-closures/README.md)
+- [⚡ IIFE](./20-IIFE/README.md)
+- [🚀 Function Hoisting](./function-hoisting/README.md)
 
-```mermaid
-graph TD
-    A[Code Execution] --> B{Declaration Type}
-    B -->|var| C[Hoisted: Initialized as 'undefined']
-    B -->|let/const| D[Hoisted: Temporal Dead Zone TDZ]
-    B -->|function| E[Fully Hoisted: Available for call]
-```
+### ⚙️ Engine & Behavior
+- [🚀 Hoisting Basics](./26-hoisting/README.md)
+- [⏳ let Hoisting & TDZ](./18-letHoisting/README.md)
+- [🧠 Memoization](./25-memoization/README.md)
+- [🔀 Switch Scoping](./19-switch/README.md)
+- [🏁 Semicolon ASI](./semicolon-issue/README.md)
 
-- **TDZ (Temporal Dead Zone)**: The period between entering a scope and the variable being declared where accessing it throws a `ReferenceError`.
-
----
-
-## ⚡ Higher Order Functions (HOF)
-
-A **Higher Order Function** is a function that either:
-1.  Takes a function as an argument.
-2.  Returns a function.
-
-```javascript
-function multiplier(factor) {
-    return function(num) {
-        return num * factor;
-    };
-}
-const double = multiplier(2); // double is a function
-```
-
----
-
-## 🍛 Currying
-
-**Currying** is a technique of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.
-
-```mermaid
-graph LR
-    A["add(a, b, c)"] -->|Curry| B["add(a)(b)(c)"]
-```
-
-**Why use it?**
--   Helps in creating reusable functions (Partial Application).
--   Clean and maintainable code for configuration.
+### ⛓️ Asynchronous & Arrays
+- [🕸️ Avoiding Callback Hell](./28-avoid-callback/README.md)
+- [🔪 Array.slice()](./05-Slice/README.md)
+- [✂️ Array.splice()](./06-splice/README.md)
+- [📄 JSON Parsing](./04-JSON/README.md)
 
 ---
 
-## 🔒 IIFE (Immediately Invoked Function Expression)
-
-An IIFE is a function that runs as soon as it is defined.
-
-```javascript
-(function() {
-    console.log("I run immediately!");
-})();
-```
-
-**Use Case**: Avoiding global scope pollution and creating private variables (pre-ES6 modules).
-
----
-
-## 🧠 Memoization
-
-A technique to speed up programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
-
-```mermaid
-graph TD
-    A[Call Function] --> B{Result in Cache?}
-    B -->|Yes| C[Return Cached Result]
-    B -->|No| D[Execute Expensive Logic]
-    D --> E[Store Result in Cache]
-    E --> F[Return Result]
-```
-
----
-
-## 📂 Key Files
-- [13-higerOrderFun.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/13-higerOrderFun.js) - HOF examples.
-- [15-currying.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/15-currying.js) - Currying scripts.
-- [26-hoisting.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/26-hoisting.js) - Hoisting pitfalls.
-- [25-memoization.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/25-memoization.js) - Implementation of memoization.
+## 🧩 Challenges
+- [🧩 Output-based Problems](./Output-based/README.md)

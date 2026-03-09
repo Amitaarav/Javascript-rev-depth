@@ -69,5 +69,5 @@ function throttle(func, limit) {
 ---
 
 ## 📂 Related Files
-- [throttling.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Throttling/throttling.js) - Basic implementation.
-- [Ace-FE-Interview/Debouncing/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Ace-FE-Interview/Debouncing/) - Interview prep for debouncing.
+- [throttling.js](./throttling.js) - Basic implementation.
+- [Ace-FE-Interview/Debouncing/](../Ace-FE-Interview/Debouncing/) - Interview prep for debouncing.

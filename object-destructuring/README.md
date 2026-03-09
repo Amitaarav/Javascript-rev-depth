@@ -61,5 +61,5 @@ While destructuring "unpacks", the **Spread Operator** "packs" or copies.
 ---
 
 ## 📂 Related Files
-- [object-destructuring/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/object-destructuring/) - Deep dive examples.
-- [04-JSON.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/04-JSON.js) - Serialization & parsing.
+- [object-destructuring/](./) - Deep dive examples.
+- [04-JSON.js](../Rev-js/04-JSON.js) - Serialization & parsing.

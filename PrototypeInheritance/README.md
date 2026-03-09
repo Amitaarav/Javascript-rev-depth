@@ -78,6 +78,6 @@ graph LR
 ---
 
 ## 📂 Related Files
-- [PI1.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/PrototypeInheritance/PI1.js) - Basic inheritance scripts.
-- [PI2.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/PrototypeInheritance/PI2.js) - Advanced patterns.
-- [02-prototype-chain.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/02-prototype-chain.js) - Revision examples.
+- [PI1.js](./PI1.js) - Basic inheritance scripts.
+- [PI2.js](./PI2.js) - Advanced patterns.
+- [02-prototype-chain.js](../Rev-js/02-prototype-chain.js) - Revision examples.

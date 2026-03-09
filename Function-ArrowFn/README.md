@@ -68,6 +68,6 @@ obj.arrow();   // undefined (points to global scope!)
 ---
 
 ## 📂 Related Files
-- [Function-ArrowFn/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Function-ArrowFn/) - Arrow function deep dive.
-- [functionexpressions/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/functionexpressions/) - Expression vs Declaration.
-- [20-IIFE.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/20-IIFE.js) - Immediate execution.
+- [Function-ArrowFn/](./) - Arrow function deep dive.
+- [functionexpressions/](../functionexpressions/) - Expression vs Declaration.
+- [20-IIFE.js](../Rev-js/20-IIFE.js) - Immediate execution.

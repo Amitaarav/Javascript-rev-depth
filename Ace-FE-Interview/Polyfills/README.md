@@ -44,6 +44,6 @@ When writing a polyfill, keep these in mind:
 ---
 
 ## 📂 Related Files in this Directory
-- [/Map/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Ace-FE-Interview/Polyfills/Map/) - Detailed polyfill for Map.
-- [/Intro/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Ace-FE-Interview/Polyfills/Intro/) - Conceptual introduction to polyfills.
-- [/stringToObj/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Ace-FE-Interview/Polyfills/stringToObj/) - Custom object manipulation logic.
+- [/Map/](./Map/) - Detailed polyfill for Map.
+- [/Intro/](./Intro/) - Conceptual introduction to polyfills.
+- [/stringToObj/](./stringToObj/) - Custom object manipulation logic.

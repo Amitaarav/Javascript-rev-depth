@@ -58,6 +58,6 @@ Be careful! Some methods change the original array (**In-Place**), while others 
 ---
 
 ## 📂 Related Files
-- [Map-Filter-Reduce/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Map-Filter-Reduce/) - Deep dive into big-three.
-- [ArrayMethods/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/ArrayMethods/) - Basics like length, push, etc.
-- [05-Slice.js](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Rev-js/05-Slice.js) - Examples of slicing.
+- [Map-Filter-Reduce/](../Map-Filter-Reduce/) - Deep dive into big-three.
+- [ArrayMethods/](./) - Basics like length, push, etc.
+- [05-Slice.js](../Rev-js/05-Slice.js) - Examples of slicing.

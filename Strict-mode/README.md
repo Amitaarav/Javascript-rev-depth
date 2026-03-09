@@ -43,5 +43,5 @@ mindmap
 ---
 
 ## 📂 Related Files
-- [Strict-mode/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Strict-mode/) - Code examples.
-- [Details_var_let/](file:///c:/Users/USER/Desktop/100xBootcamp/100xDevs/Javascript/Details_var_let/) - Scoping differences.
+- [Strict-mode/](./) - Code examples.
+- [Details_var_let/](../Details_var_let/) - Scoping differences.
